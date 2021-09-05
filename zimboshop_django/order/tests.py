@@ -10,4 +10,4 @@ class TestUrls(SimpleTestCase):
 
     def test_checkout_orders_is_resolved(self):
         url = reverse('orders')
-        self.assertEquals(resolve(url).func, OrdersList)
+        self.assertEquals(resolve(url).func.view_class, OrdersList)
