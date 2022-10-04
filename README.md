@@ -1,4 +1,4 @@
-### ZimboShop Web Application
+### ZimboShop Web Application for selling 
 
  
 ### Django Set Up
